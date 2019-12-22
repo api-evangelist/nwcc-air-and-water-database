@@ -9,8 +9,8 @@
         "water",
         "watershed"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/nwcc-air-and-water-database\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -24,13 +24,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/nwcc-air-and-water-database-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/nwcc-air-and-water-database\/master\/nwcc-air-and-water-database-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "http:\/\/www.wcc.nrcs.usda.gov\/web_service\/awdb_web_service_landing.htm"
